@@ -1,0 +1,236 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Source: index.js | Doc Template</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+
+    <!-- <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css"> -->
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/fa.css">
+
+    
+
+</head>
+<body>
+
+<nav class="mynav" id="mynav">
+    <div class="title">
+        <h1><a href="index.html" class="link">Doc Template</a></h1>
+        
+            <span class="version">v0.0.2</span>
+        
+    </div>
+    <div class="search-container" id="search-container">
+        <i aria-hidden="true" class="fa fa-search"></i>
+        <input type="text" placeholder="Search">
+        <ul></ul>
+    </div>
+    
+        <ol class="mynav-tab">
+            <li id="api-tab">
+                <a href="#"><h4>API</h4></a>
+            </li>
+            <li id="examples-tab">
+                <a href="#"><h4>wiki</h4></a>
+            </li>
+        </ol>
+    
+    <div class="lnb-examples hidden"><h3>wiki</h3><ul><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="tutorial-demo.html">demo</a><div class="hidden" id="demo_sub"></div></li><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="tutorial-markdown.html">markdown</a><div class="hidden" id="markdown_sub"></div></li></ul></div><div class="lnb-api hidden"><h3>Modules</h3><ul><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="module-dom.html">dom</a><div class="hidden" id="module:dom_sub"><div class="member-type">Members</div><ul class="inner"><li><a href="module-dom.html#.$">$</a></li><li><a href="module-dom.html#.$$">$$</a></li></ul><div class="member-type">Methods</div><ul class="inner"><li><a href="module-dom.html#.addClass">addClass</a></li><li><a href="module-dom.html#.appendContent">appendContent</a></li><li><a href="module-dom.html#.blockTextSelection">blockTextSelection</a></li><li><a href="module-dom.html#.createEl">createEl</a></li><li><a href="module-dom.html#.emptyEl">emptyEl</a></li><li><a href="module-dom.html#.findPosition">findPosition</a></li><li><a href="module-dom.html#.getAttribute">getAttribute</a></li><li><a href="module-dom.html#.getAttributes">getAttributes</a></li><li><a href="module-dom.html#.getBoundingClientRect">getBoundingClientRect</a></li><li><a href="module-dom.html#.getPointerPosition">getPointerPosition</a></li><li><a href="module-dom.html#.hasClass">hasClass</a></li><li><a href="module-dom.html#.insertContent">insertContent</a></li><li><a href="module-dom.html#.isEl">isEl</a></li><li><a href="module-dom.html#.isInFrame">isInFrame</a></li><li><a href="module-dom.html#.isReal">isReal</a></li><li><a href="module-dom.html#.isSingleLeftClick">isSingleLeftClick</a></li><li><a href="module-dom.html#.isTextNode">isTextNode</a></li><li><a href="module-dom.html#.normalizeContent">normalizeContent</a></li><li><a href="module-dom.html#.prependTo">prependTo</a></li><li><a href="module-dom.html#.removeAttribute">removeAttribute</a></li><li><a href="module-dom.html#.removeClass">removeClass</a></li><li><a href="module-dom.html#.setAttribute">setAttribute</a></li><li><a href="module-dom.html#.setAttributes">setAttributes</a></li><li><a href="module-dom.html#.textContent">textContent</a></li><li><a href="module-dom.html#.toggleClass">toggleClass</a></li><li><a href="module-dom.html#.unblockTextSelection">unblockTextSelection</a></li><li><a href="module-dom.html#~classRegExp">classRegExp</a></li><li><a href="module-dom.html#~createQuerier">createQuerier</a></li><li><a href="module-dom.html#~isNonBlankString">isNonBlankString</a></li><li><a href="module-dom.html#~throwIfWhitespace">throwIfWhitespace</a></li></ul><div class="member-type">Typedef</div><ul class="inner"><li><a href="module-dom.html#~Position">Position</a></li></ul></div></li></ul></div><div class="lnb-api hidden"><h3>Classes</h3><ul><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="myClass.html">myClass</a><div class="hidden" id="myClass_sub"></div></li></ul></div><div class="lnb-api hidden"><h3>Namespaces</h3><ul><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="$.html">$</a><div class="hidden" id="$_sub"></div></li></ul></div><div class="lnb-api hidden"><h3>Global</h3><ul><li><a href="global.html#add">add</a></li><li><a href="global.html#bar">bar</a></li><li><a href="global.html#foo">foo</a></li><li><a href="global.html#foo1">foo1</a></li><li><a href="global.html#foo2">foo2</a></li><li><a href="global.html#foo3">foo3</a></li><li><a href="global.html#foo4">foo4</a></li><li><a href="global.html#foo5">foo5</a></li><li><a href="global.html#foo6">foo6</a></li><li><a href="global.html#foo7">foo7</a></li><li><a href="global.html#foo10">foo10</a></li><li class="hidden"><a href="global.html#myCallback">myCallback</a></li><li><a href="global.html#myCallbackFN">myCallbackFN</a></li><li class="hidden"><a href="global.html#myType">myType</a></li><li><a href="global.html#todo">todo</a></li></ul></div>
+</nav>
+
+<div id="resizer"></div>
+
+<div class="main" id="main">
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @type {number}
+ */
+var foo1;
+
+/**
+ * @type {*}
+ * @desc 任何类型
+ */
+var foo2;
+
+/**
+ * @type {?string}
+ * @desc string或者null
+ */
+var foo3;
+
+/**
+ * @type {!string}
+ * @desc string且不能为null
+ */
+var foo4;
+
+/**
+ * @type {boolean[]}
+ * @desc boelean数组
+ */
+var foo5;
+
+/**
+ * @type {(number|string)}
+ * @desc number或者string
+ */
+var foo6;
+
+/**
+ * @type {object}
+ * @desc 对象
+ * @property {string} a - 属性a
+ */
+var foo7 = {
+    a: 'a'
+};
+
+
+/**
+ * @func
+ * @desc 一个带参数的函数
+ * @param {string} a - 参数a
+ * @param {number} b=1 - 参数b默认值为1
+ * @param {string} c=1 - 参数c有两种支持的取值&lt;/br>1—表示x&lt;/br>2—表示xx
+ * @param {object} d - 参数d为一个对象
+ * @param {string} d.e - 参数d的e属性
+ * @param {string} d.f - 参数d的f属性
+ * @param {object[]} g - 参数g为一个对象数组
+ * @param {string} g.h - 参数g数组中一项的h属性
+ * @param {string} g.i - 参数g数组中一项的i属性
+ * @param {string} [j] - 参数j是一个可选参数
+ */
+function foo(a, b, c, d, g, j) { }
+
+/**
+ * @func
+ * @desc 一个带若干参数的函数
+ * @param {...string} a - 参数a
+ */
+function bar(a) { }
+
+
+/**
+ * @func
+ * @returns {boolean} 返回值为true
+ */
+function foo() {
+    return true;
+}
+
+
+/**
+ * @namespace
+ */
+var $ = {
+}
+
+/**
+ * @desc 这是一个变量
+ */
+var foo;
+
+/**
+ * @func
+ * @desc 计算两个数值的和
+ * @param {number} a - 加数a
+ * @param {number} b - 加数b
+ * @returns {number} 返回a和b的和
+ * @example
+ * add(1, 2);    // 返回3
+ */
+function add(a, b) {
+    return a + b;
+}
+
+/**
+ * @func
+ * @todo 这个函数需要优化
+ */
+function todo() {
+}
+
+
+/**
+ * @callback myCallback
+ * @desc 这是自定义的type
+ * @param {number} a - 参数a
+ * @returns {boolean} 返回值
+ */
+function myCallback(a) {
+    return true;
+}
+
+/**
+ * @func
+ * @param {myCallback} a - 参数a是一个回调函数
+ */
+function myCallbackFN(a) {
+}
+
+/**
+ * @typedef myType
+ * @desc 这是自定义的type
+ * @property {number} a - 属性a
+ * @property {string} b - 属性b
+ */
+
+/**
+ * @type myType
+ */
+var foo;
+
+/**
+ *@class
+ */
+function myClass() {
+}
+
+/**
+ * @func
+ * @this myClass
+ * @param {string} a - 参数a
+ */
+function foo10(a) {
+    this.a = a;
+}
+
+foo.call(new myClass(), 'a');
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<script>prettyPrint();</script>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/doc.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+    <script>
+        var id = '_sub'.replace(/"/g, '_');
+        var selectedApi = document.getElementById(id); // do not use jquery selector
+        var $selectedApi = $(selectedApi);
+
+        $selectedApi.removeClass('hidden');
+        $selectedApi.parent().find('.fa').removeClass('fa-plus-square').addClass('fa-minus-square');
+        showLnbApi();
+    </script>
+
+</body>
+</html>

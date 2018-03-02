@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home | Doc Template</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+
+    <!-- <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css"> -->
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/fa.css">
+
+    
+
+</head>
+<body>
+
+<nav class="mynav" id="mynav">
+    <div class="title">
+        <h1><a href="index.html" class="link">Doc Template</a></h1>
+        
+            <span class="version">v0.0.2</span>
+        
+    </div>
+    <div class="search-container" id="search-container">
+        <i aria-hidden="true" class="fa fa-search"></i>
+        <input type="text" placeholder="Search">
+        <ul></ul>
+    </div>
+    
+        <ol class="mynav-tab">
+            <li id="api-tab">
+                <a href="#"><h4>API</h4></a>
+            </li>
+            <li id="examples-tab">
+                <a href="#"><h4>wiki</h4></a>
+            </li>
+        </ol>
+    
+    <div class="lnb-examples hidden"><h3>wiki</h3><ul><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="tutorial-demo.html">demo</a><div class="hidden" id="demo_sub"></div></li><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="tutorial-markdown.html">markdown</a><div class="hidden" id="markdown_sub"></div></li></ul></div><div class="lnb-api hidden"><h3>Modules</h3><ul><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="module-dom.html">dom</a><div class="hidden" id="module:dom_sub"><div class="member-type">Members</div><ul class="inner"><li><a href="module-dom.html#.$">$</a></li><li><a href="module-dom.html#.$$">$$</a></li></ul><div class="member-type">Methods</div><ul class="inner"><li><a href="module-dom.html#.addClass">addClass</a></li><li><a href="module-dom.html#.appendContent">appendContent</a></li><li><a href="module-dom.html#.blockTextSelection">blockTextSelection</a></li><li><a href="module-dom.html#.createEl">createEl</a></li><li><a href="module-dom.html#.emptyEl">emptyEl</a></li><li><a href="module-dom.html#.findPosition">findPosition</a></li><li><a href="module-dom.html#.getAttribute">getAttribute</a></li><li><a href="module-dom.html#.getAttributes">getAttributes</a></li><li><a href="module-dom.html#.getBoundingClientRect">getBoundingClientRect</a></li><li><a href="module-dom.html#.getPointerPosition">getPointerPosition</a></li><li><a href="module-dom.html#.hasClass">hasClass</a></li><li><a href="module-dom.html#.insertContent">insertContent</a></li><li><a href="module-dom.html#.isEl">isEl</a></li><li><a href="module-dom.html#.isInFrame">isInFrame</a></li><li><a href="module-dom.html#.isReal">isReal</a></li><li><a href="module-dom.html#.isSingleLeftClick">isSingleLeftClick</a></li><li><a href="module-dom.html#.isTextNode">isTextNode</a></li><li><a href="module-dom.html#.normalizeContent">normalizeContent</a></li><li><a href="module-dom.html#.prependTo">prependTo</a></li><li><a href="module-dom.html#.removeAttribute">removeAttribute</a></li><li><a href="module-dom.html#.removeClass">removeClass</a></li><li><a href="module-dom.html#.setAttribute">setAttribute</a></li><li><a href="module-dom.html#.setAttributes">setAttributes</a></li><li><a href="module-dom.html#.textContent">textContent</a></li><li><a href="module-dom.html#.toggleClass">toggleClass</a></li><li><a href="module-dom.html#.unblockTextSelection">unblockTextSelection</a></li><li><a href="module-dom.html#~classRegExp">classRegExp</a></li><li><a href="module-dom.html#~createQuerier">createQuerier</a></li><li><a href="module-dom.html#~isNonBlankString">isNonBlankString</a></li><li><a href="module-dom.html#~throwIfWhitespace">throwIfWhitespace</a></li></ul><div class="member-type">Typedef</div><ul class="inner"><li><a href="module-dom.html#~Position">Position</a></li></ul></div></li></ul></div><div class="lnb-api hidden"><h3>Classes</h3><ul><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="myClass.html">myClass</a><div class="hidden" id="myClass_sub"></div></li></ul></div><div class="lnb-api hidden"><h3>Namespaces</h3><ul><li><span class="hidden toggle-subnav">  <span class="fa fa-plus-square"></span></span><a href="$.html">$</a><div class="hidden" id="$_sub"></div></li></ul></div><div class="lnb-api hidden"><h3>Global</h3><ul><li><a href="global.html#add">add</a></li><li><a href="global.html#bar">bar</a></li><li><a href="global.html#foo">foo</a></li><li><a href="global.html#foo1">foo1</a></li><li><a href="global.html#foo2">foo2</a></li><li><a href="global.html#foo3">foo3</a></li><li><a href="global.html#foo4">foo4</a></li><li><a href="global.html#foo5">foo5</a></li><li><a href="global.html#foo6">foo6</a></li><li><a href="global.html#foo7">foo7</a></li><li><a href="global.html#foo10">foo10</a></li><li class="hidden"><a href="global.html#myCallback">myCallback</a></li><li><a href="global.html#myCallbackFN">myCallbackFN</a></li><li class="hidden"><a href="global.html#myType">myType</a></li><li><a href="global.html#todo">todo</a></li></ul></div>
+</nav>
+
+<div id="resizer"></div>
+
+<div class="main" id="main">
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+    <section>
+        <article class="readme"><h1>JSDoc Template</h1><p>记得有大神说过，尽量不要注释，除了<a href="http://usejsdoc.org/">JsDoc</a>。JsDoc 可以帮助我们通过 JsDoc 的注释风格快速生成 Api 文档。比如 <a href="https://lodash.com/docs/4.17.5">lodash</a> 文档。</p>
+<blockquote>
+<p>JsDoc 可以让开发者养成良好的注释风格，并且可以让你注释和编写文档同步进行。</p>
+</blockquote>
+<ul>
+<li><a href="http://usejsdoc.org/">官方文档/英文</a></li>
+<li><a href="http://www.css88.com/doc/jsdoc/index.html">中文参考</a></li>
+<li><a href="https://github.com/jsdoc3/jsdoc">github</a></li>
+</ul>
+<h2>myJsDoc 模板预览</h2><p>API 文档风格主要基于 <code>jsDoc Template</code> ，<code>myJsDoc</code> 就是其中衍生的一种风格。所有样式(包括代码风格) 均可自定义。</p>
+<ul>
+<li>整体风格</li>
+</ul>
+<p><img src="https://github.com/leer0911/myJsdoc/raw/master/screenshot/a.png" alt="预览"></p>
+<ul>
+<li>markdown 风格 (github)</li>
+</ul>
+<p><img src="https://github.com/leer0911/myJsdoc/blob/master/screenshot/b.png" alt="预览"></p>
+<h2>JsDoc 安装</h2><pre class="prettyprint source lang-bash"><code> npm install -g jsdoc</code></pre><p>在根目录新建 <code>jsdoc.json</code> 用于配置生成规则，如下 ( 具体配置可参考 <a href="https://github.com/leer0911/myJsdoc/tree/master/demo">myJsDoc</a> )</p>
+<pre class="prettyprint source lang-json"><code>{
+    &quot;source&quot;: {
+        // 需要生成文档的对应 js 路径
+        &quot;include&quot;: [&quot;src/&quot;],
+        &quot;includePattern&quot;: &quot;.js$&quot;
+    },
+    &quot;opts&quot;: {
+        &quot;destination&quot;: &quot;docs/&quot;, // 文档生成目录
+        &quot;readme&quot;: &quot;docs/index.md&quot;, // 文档首页展示内容
+        &quot;template&quot;: &quot;&quot;, // 文档模板
+        &quot;package&quot;: &quot;package.json&quot;,
+        &quot;recurse&quot;: true,
+        &quot;tutorials&quot;: &quot;docs/tutorials&quot;, // 生成教程内容
+        &quot;encoding&quot;: &quot;utf8&quot;
+    },
+    &quot;templates&quot;: {
+        // 模板配置，此处跟模板设置有关。
+    },
+    &quot;plugins&quot;: [&quot;plugins/markdown&quot;],
+    &quot;markdown&quot;: {
+        &quot;tags&quot;: [&quot;example&quot;],
+        &quot;idInHeadings&quot;: true
+    }
+}</code></pre><h2>myJsDoc 模板配置项</h2><pre class="prettyprint source lang-javascript"><code>{
+    &quot;templates&quot;: {
+      &quot;default&quot;: { // 可自定义指定添加到styles的目录
+        &quot;staticFiles&quot;: {
+            &quot;include&quot;: [
+                 &quot;./static&quot;
+            ]
+        }
+      },
+      &quot;css&quot;: [
+        &quot;styles/style.css&quot; // 自定义样式
+      ],
+      &quot;name&quot;: &quot;Doc Template&quot;, // 文档名称
+      &quot;tabNames&quot;:{ // 导航名称
+          &quot;tutorials&quot;:&quot;wiki&quot;,
+          &quot;apiName&quot;:&quot;api&quot;
+      }
+  }
+}</code></pre><h3>如何自定义样式</h3><p>首先确保项目正常跑起来</p>
+<pre class="prettyprint source lang-bash"><code>git clone https://github.com/leer0911/myJsdoc.git
+cd myJsDoc
+npm i
+npm run serve</code></pre><p>这里，<code>serve</code> 任务主要做了三件事</p>
+<ul>
+<li>监听 scss 文件，编译成 css 对应存入 static 目录下</li>
+<li>监听 jsdoc 相关文件</li>
+<li>触发 gulp-jsdoc 生成文档</li>
+</ul>
+<p>模板所有相关资源都在 <code>static</code> 目录下</p>
+<ul>
+<li>tmpl 目录 <code>layout.tmpl</code> 修改布局</li>
+<li><code>publish.js</code> 修改由 jsdoc 传入的数据，包括 nav 信息，注释信息等</li>
+<li>scss 目录修改样式</li>
+</ul>
+<p>运行 demo 后找到以上主要文件进行实时自定义修改</p>
+<h3>参考</h3><p><a href="https://jmblog.github.io/color-themes-for-google-code-prettify/">代码样式</a></p>
+<p><a href="http://yuri4ever.github.io/jsdoc/doc/index.html">jsdoc 常用标签</a></p>
+<p><a href="https://github.com/nhnent/tui.jsdoc-template">tui jsdoc</a></p></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<script>prettyPrint();</script>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/doc.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+    <script>
+        var id = 'package:myjsdoc_sub'.replace(/"/g, '_');
+        var selectedApi = document.getElementById(id); // do not use jquery selector
+        var $selectedApi = $(selectedApi);
+
+        $selectedApi.removeClass('hidden');
+        $selectedApi.parent().find('.fa').removeClass('fa-plus-square').addClass('fa-minus-square');
+        showLnbApi();
+    </script>
+
+</body>
+</html>
